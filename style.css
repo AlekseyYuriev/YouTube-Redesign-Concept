@@ -22,14 +22,16 @@
 
 .header {
   box-sizing: border-box;
-  max-width: 1856px;
+  max-width: 1920px;
   margin: 0 auto;
   padding-top: 20px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
 .header__intro {
+  padding-left: 31px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -76,7 +78,7 @@
   max-width: 830px;
   width: 100%;
   height: 44px;
-  margin: 0 505px 0 59px;
+  margin: 0 473px 0 27px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -86,6 +88,7 @@
 .header__input {
   padding: 0;
   max-width: calc(100% - 56px);
+  min-width: 75px;
   width: 100%;
   height: 44px;
   border: none;
@@ -112,6 +115,7 @@
 }
 
 .header__icons {
+  padding-right: 32px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -170,4 +174,118 @@
   background-color: transparent;
   margin-right: calc(70px - 32px);
   cursor: pointer;
+}
+
+.menu {
+  padding: 50px 0 0 32px;
+  max-width: 134px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menu__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 29px;
+}
+
+.menu__button {
+  height: 20px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  gap: 13px;
+}
+
+.menu__home-image {
+  width: 20px;
+  height: 19px;
+}
+
+.menu__text {
+  margin: 0;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #898989;
+}
+
+.menu__text-home {
+  color: #ff0000;
+  padding: 0;
+  text-shadow: none;
+}
+
+.menu__text-shadow {
+  padding-left: 2px;
+  text-shadow: 0 3px 8px;
+}
+
+.menu__trending-image {
+  width: 16px;
+  height: 21px;
+  padding-left: 2px;
+}
+
+.menu__subscriptions-image {
+  width: 18px;
+  height: 18px;
+}
+
+.menu__control {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 29px;
+}
+
+.menu__library-image {
+  width: 20px;
+  height: 16px;
+}
+
+.menu__history-image {
+  width: 20px;
+  height: 18px;
+}
+
+.menu__watch-image {
+  width: 17px;
+  height: 19px;
+  margin-left: 2px;
+}
+
+.menu__favourites-image {
+  width: 19px;
+  height: 18px;
+  margin-right: 1px;
+}
+
+.menu__liked-image {
+  width: 18px;
+  height: 17px;
+  margin-right: 2px;
+}
+
+.menu__music-image {
+  width: 18px;
+  height: 20px;
+  margin-right: 2px;
+}
+
+.menu__games-image {
+  width: 22px;
+  height: 16px;
+  padding-top: 2px;
+  margin-right: -2px;
+}
+
+.menu__more-image {
+  width: 14px;
+  height: 8px;
+  padding: 7px 4px 0 2px;
 }
