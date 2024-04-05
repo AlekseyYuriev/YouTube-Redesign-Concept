@@ -47,7 +47,7 @@
   height: 17px;
   background-color: transparent;
   border: none;
-  padding: 0px;
+  padding: 1px 0 0 2px;
   cursor: pointer;
 }
 
@@ -72,6 +72,7 @@
 .header__logo {
   width: 116px;
   height: 25px;
+  padding: 2px 0 0 1px;
 }
 
 .header__search {
@@ -179,6 +180,7 @@
 .menu {
   padding: 50px 0 0 32px;
   max-width: 134px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -207,7 +209,6 @@
 
 .menu__text {
   margin: 0;
-  text-align: center;
   font-size: 16px;
   font-weight: 400;
   color: #898989;
@@ -288,4 +289,48 @@
   width: 14px;
   height: 8px;
   padding: 7px 4px 0 2px;
+}
+
+.subscriptions {
+  padding: 58px 0 0 30px;
+  max-width: 159px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.subscriptions__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.subscriptions__users {
+  height: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.subscriptions__user {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.subscriptions__user-image {
+  width: 26px;
+  height: 26px;
+}
+
+.subscriptions__user-name {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #898989;
 }
