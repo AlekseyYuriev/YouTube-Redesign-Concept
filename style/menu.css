@@ -1,0 +1,117 @@
+.container {
+  display: flex;
+}
+
+.menu {
+  padding: 50px 0 0 32px;
+  width: 159px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menu__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 29px;
+}
+
+.menu__button {
+  height: 20px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  gap: 13px;
+}
+
+.menu__home-image {
+  width: 20px;
+  height: 19px;
+}
+
+.menu__text {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.08px;
+  color: #898989;
+}
+
+.menu__text-home {
+  color: #ff0000;
+  padding: 0;
+  text-shadow: none;
+}
+
+.menu__text-shadow {
+  padding-left: 2px;
+  text-shadow: 0 3px 8px;
+}
+
+.menu__trending-image {
+  width: 16px;
+  height: 21px;
+  padding-left: 2px;
+}
+
+.menu__subscriptions-image {
+  width: 18px;
+  height: 18px;
+}
+
+.menu__control {
+  padding-top: 59px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 29px;
+}
+
+.menu__library-image {
+  width: 20px;
+  height: 16px;
+}
+
+.menu__history-image {
+  width: 20px;
+  height: 18px;
+}
+
+.menu__watch-image {
+  width: 17px;
+  height: 19px;
+  margin-left: 2px;
+}
+
+.menu__favourites-image {
+  width: 19px;
+  height: 18px;
+  margin-right: 1px;
+}
+
+.menu__liked-image {
+  width: 18px;
+  height: 17px;
+  margin-right: 2px;
+}
+
+.menu__music-image {
+  width: 18px;
+  height: 20px;
+  margin-right: 2px;
+}
+
+.menu__games-image {
+  width: 22px;
+  height: 16px;
+  padding-top: 2px;
+  margin-right: -2px;
+}
+
+.menu__more-image {
+  width: 14px;
+  height: 8px;
+  padding: 7px 4px 0 2px;
+}
