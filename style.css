@@ -376,6 +376,7 @@
   font-size: 26px;
   line-height: 32.63px;
   font-weight: 700;
+  color: #19202c;
 }
 
 .main__slider {
@@ -469,6 +470,113 @@
   margin: 0;
   font-size: 13px;
   line-height: 16.31px;
+  color: #c2c2c2;
+}
+
+.recommended {
+  max-width: 1700px;
+  width: 100%;
+  padding-top: 49px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.recommended__container {
+  max-width: 1516px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.recommended__title {
+  margin: 0;
+  font-size: 26px;
+  line-height: 32.63px;
+  font-weight: 700;
+  color: #19202c;
+}
+.recommended__slider {
+  padding-top: 4px;
+  width: 66px;
+  height: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+.recommended__button {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  background-image: url('./images/left.png');
+}
+
+.recommended__button:last-child {
+  background-image: url('./images/right.png');
+}
+
+.recommended__videos {
+  padding-top: 30px;
+  display: flex;
+  gap: 40px;
+  overflow: scroll;
+}
+.recommended__card {
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+}
+.recommended__preview {
+  width: 540px;
+  height: 250px;
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+}
+.recommended__duration {
+  margin: 0;
+  width: 47px;
+  height: 24px;
+  border-radius: 12px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 17.57px;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 216px;
+  left: 483px;
+}
+.recommended__name {
+  margin: 10px 0 6px 0;
+  font-size: 16px;
+  line-height: 20.08px;
+  font-weight: 700;
+  color: #19202c;
+}
+.recommended__info {
+  display: flex;
+  justify-content: space-between;
+}
+.recommended__views {
+  width: 155px;
+  margin: 0;
+  font-size: 12px;
+  line-height: 15.06px;
+  color: #c2c2c2;
+}
+.recommended__point {
+  margin: 0 3px 0 3px;
+}
+.recommended__author {
+  margin: 0;
+  font-size: 12px;
+  line-height: 15.06px;
   color: #c2c2c2;
 }
 
