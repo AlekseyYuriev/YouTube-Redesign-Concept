@@ -10,7 +10,7 @@
   height: 100vh;
   margin: 0 auto;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   background-color: #ffffff;
   font-family: 'Mulish', Helvetica, Arial, sans-serif;
   -moz-osx-font-smoothing: grayscale;
@@ -178,10 +178,13 @@
   cursor: pointer;
 }
 
+.container {
+  display: flex;
+}
+
 .menu {
   padding: 50px 0 0 32px;
-  max-width: 134px;
-  width: 100%;
+  width: 159px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -295,8 +298,7 @@
 
 .subscriptions {
   padding: 58px 0 0 30px;
-  max-width: 159px;
-  width: 100%;
+  width: 159px;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -339,12 +341,12 @@
 }
 
 .main {
-  box-sizing: border-box;
   max-width: 1700px;
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 50px 0 0 66px;
+  padding: 50px 0 0 64px;
+  overflow: hidden;
 }
 
 .main__user-container {
@@ -402,6 +404,7 @@
   padding-top: 28px;
   display: flex;
   gap: 40px;
+  overflow: scroll;
 }
 
 .video__card {
@@ -413,7 +416,11 @@
 .video__preview {
   width: 250px;
   height: 150px;
-  background-image: url('./images/cover1.png');
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 12px;
 }
 
 .video__duration {
@@ -424,8 +431,7 @@
   color: #ffffff;
   font-size: 14px;
   line-height: 17.57px;
-  background-color: #000000;
-  opacity: 0.3;
+  background-color: rgba(0, 0, 0, 0.3);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -448,7 +454,7 @@
 }
 
 .video__views {
-  width: 144px;
+  width: 168px;
   margin: 0;
   font-size: 13px;
   line-height: 16.31px;
