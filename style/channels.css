@@ -6,12 +6,14 @@
   flex-direction: column;
   overflow: hidden;
 }
+
 .channels__container {
   max-width: 1516px;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
+
 .channels__text {
   padding-bottom: 5px;
   max-width: 479px;
@@ -25,6 +27,7 @@
   width: 50px;
   height: 50px;
 }
+
 .channels__title {
   margin: 0;
   font-size: 26px;
@@ -32,6 +35,7 @@
   font-weight: 700;
   color: #19202c;
 }
+
 .channels__subtitle {
   margin: 0;
   padding-top: 7px;
@@ -39,6 +43,7 @@
   line-height: 20.08px;
   color: #c2c2c2;
 }
+
 .channels__buttons {
   height: 55px;
   max-width: 260px;
@@ -47,6 +52,7 @@
   justify-content: space-between;
   align-items: flex-end;
 }
+
 .channels__subscribe {
   padding: 0;
   width: 154px;
@@ -57,6 +63,11 @@
   background-color: #ff0000;
   color: #ffffff;
 }
+
+.channels__subscribe:hover {
+  opacity: 0.6;
+}
+
 .channels__slider {
   padding-bottom: 6px;
   width: 66px;
@@ -77,6 +88,10 @@
 
 .channels__button:last-child {
   background-image: url('../images/right.png');
+}
+
+.channels__button:hover {
+  opacity: 0.6;
 }
 
 .channels__videos {
@@ -100,7 +115,13 @@
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 12px;
+  cursor: pointer;
 }
+
+.channels__preview:hover {
+  opacity: 0.6;
+}
+
 .channels__duration {
   margin: 0;
   width: 47px;
@@ -117,6 +138,7 @@
   top: 116px;
   left: 193px;
 }
+
 .channels__name {
   margin: 10px 0 4px 0;
   font-size: 16px;

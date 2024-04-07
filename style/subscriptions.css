@@ -30,6 +30,10 @@
   cursor: pointer;
 }
 
+.subscriptions__user:hover {
+  opacity: 0.6;
+}
+
 .subscriptions__user-image {
   width: 26px;
   height: 26px;

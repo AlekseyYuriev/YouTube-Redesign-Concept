@@ -59,6 +59,10 @@
   background-image: url('../images/right.png');
 }
 
+.main__button:hover {
+  opacity: 0.6;
+}
+
 .video {
   padding-top: 28px;
   display: flex;
@@ -80,6 +84,11 @@
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 12px;
+  cursor: pointer;
+}
+
+.video__preview:hover {
+  opacity: 0.6;
 }
 
 .video__duration {
