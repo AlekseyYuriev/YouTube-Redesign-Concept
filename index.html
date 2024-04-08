@@ -1,11 +1,508 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>YouTube Redesign Concept</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Aleksey" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>YouTube Redesign Concept</title>
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="header__intro">
+        <button class="header__nav-button">
+          <span class="header__nav-icon"></span>
+          <span class="header__nav-icon"></span>
+          <span class="header__nav-icon"></span>
+        </button>
+        <a href="https://www.youtube.com/" class="header__link" target="_blank">
+          <img src="./images/logo.svg" alt="YouTube Logo" class="header__logo" />
+        </a>
+      </div>
+      <div class="header__search">
+        <input type="text" class="header__input" placeholder="Search" />
+        <button class="header__search-button"></button>
+      </div>
+      <div class="header__icons">
+        <button class="header__phone">
+          <img src="./images/phone-18.png" alt="Call button" class="header__phone-icon" />
+        </button>
+        <button class="header__services">
+          <img
+            src="./images/combined-shape.png"
+            alt="Header Services button"
+            class="header__services-icon"
+          />
+        </button>
+        <button class="header__bell">
+          <img
+            src="./images/ui-11.png"
+            alt="Notifications button"
+            class="header__bell-icon"
+          />
+          <div class="header__bell-number">3</div>
+        </button>
+        <button class="header__user">
+          <img src="./images/userpic.png" alt="Call button" class="header__user-icon" />
+        </button>
+      </div>
+    </header>
+    <div class="container">
+      <aside>
+        <nav class="menu">
+          <div class="menu__main">
+            <button class="menu__button">
+              <img src="./images/home.svg" alt="Home button" class="menu__home-image" />
+              <p class="menu__text menu__text-home">Home</p>
+            </button>
+            <button class="menu__button menu__button-trending">
+              <img
+                src="./images/treding-svg.svg"
+                alt="Trending button"
+                class="menu__trending-image"
+              />
+              <p class="menu__text menu__text-shadow">Trending</p>
+            </button>
+            <button class="menu__button menu__button-subscriptions">
+              <img
+                src="./images/subscriptions.svg"
+                alt="Subscriptions button"
+                class="menu__subscriptions-image"
+              />
+              <p class="menu__text menu__text-shadow">Subscriptions</p>
+            </button>
+          </div>
+          <div class="menu__control">
+            <button class="menu__button menu__button-library">
+              <img
+                src="./images/library.svg"
+                alt="Library button"
+                class="menu__library-image"
+              />
+              <p class="menu__text">Library</p>
+            </button>
+            <button class="menu__button">
+              <img
+                src="./images/history.svg"
+                alt="History button"
+                class="menu__history-image"
+              />
+              <p class="menu__text">History</p>
+            </button>
+            <button class="menu__button">
+              <img
+                src="./images/watch-later.svg"
+                alt="Watch later button"
+                class="menu__watch-image"
+              />
+              <p class="menu__text">Watch later</p>
+            </button>
+            <button class="menu__button">
+              <img
+                src="./images/favourites.svg"
+                alt="Favourites button"
+                class="menu__favourites-image"
+              />
+              <p class="menu__text">Favourites</p>
+            </button>
+            <button class="menu__button">
+              <img
+                src="./images/liked-videos.svg"
+                alt="Liked videos button"
+                class="menu__liked-image"
+              />
+              <p class="menu__text">Liked videos</p>
+            </button>
+            <button class="menu__button">
+              <img
+                src="./images/music.svg"
+                alt="Music button"
+                class="menu__music-image"
+              />
+              <p class="menu__text">Music</p>
+            </button>
+            <button class="menu__button">
+              <img
+                src="./images/games.svg"
+                alt="Games button"
+                class="menu__games-image"
+              />
+              <p class="menu__text">Games</p>
+            </button>
+            <button class="menu__button">
+              <img
+                src="./images/show-more.svg"
+                alt="Show more button"
+                class="menu__more-image"
+              />
+              <p class="menu__text">Show more</p>
+            </button>
+          </div>
+        </nav>
+        <section class="subscriptions">
+          <p class="subscriptions__title">Subscriptions</p>
+          <div class="subscriptions__users">
+            <button class="subscriptions__user">
+              <img
+                src="./images/gussie-singleton.png"
+                alt="Gussie Singleton"
+                class="subscriptions__user-image"
+              />
+              <p class="subscriptions__user-name">Gussie Singleton</p>
+            </button>
+            <button class="subscriptions__user">
+              <img
+                src="./images/nora-francis.png"
+                alt="Nora Francis"
+                class="subscriptions__user-image"
+              />
+              <p class="subscriptions__user-name">Nora Francis</p>
+            </button>
+            <button class="subscriptions__user">
+              <img
+                src="./images/belle-briggs.png"
+                alt="Belle Briggs"
+                class="subscriptions__user-image"
+              />
+              <p class="subscriptions__user-name">Belle Briggs</p>
+            </button>
+            <button class="subscriptions__user">
+              <img
+                src="./images/eunice-cortez.png"
+                alt="Eunice Cortez"
+                class="subscriptions__user-image"
+              />
+              <p class="subscriptions__user-name">Eunice Cortez</p>
+            </button>
+            <button class="subscriptions__user">
+              <img
+                src="./images/emma-hanson.png"
+                alt="Emma Hanson"
+                class="subscriptions__user-image"
+              />
+              <p class="subscriptions__user-name">Emma Hanson</p>
+            </button>
+            <button class="subscriptions__user">
+              <img
+                src="./images/leah-berry.png"
+                alt="Leah Berry"
+                class="subscriptions__user-image"
+              />
+              <p class="subscriptions__user-name">Leah Berry</p>
+            </button>
+          </div>
+        </section>
+      </aside>
+      <main class="main">
+        <section class="main__user">
+          <div class="main__user-container">
+            <img src="./images/avatar.png" alt="User avatar" class="main__avatar" />
+            <h1 class="main__user-name">
+              <a href="channel.html" class="main__link">Dollie Blair</a>
+            </h1>
+          </div>
+          <div class="main__slider">
+            <button class="main__button"></button>
+            <button class="main__button"></button>
+          </div>
+        </section>
+        <section class="video">
+          <div class="video__card">
+            <div
+              style="background-image: url('./images/cover1.png')"
+              class="video__preview"
+            >
+              <p class="video__duration">4:15</p>
+            </div>
+            <p class="video__name video__name-history">A Brief History Of Creation</p>
+            <div class="video__info">
+              <p class="video__views">
+                80k views
+                <span class="video__point">·</span>
+                3 days ago
+              </p>
+              <p class="video__user">Dollie Blair</p>
+            </div>
+          </div>
+          <div class="video__card">
+            <div
+              style="background-image: url('./images/cover2.png')"
+              class="video__preview"
+            >
+              <p class="video__duration">8:00</p>
+            </div>
+            <p class="video__name">Selecting The Right Hotel</p>
+            <div class="video__info">
+              <p class="video__views">
+                123k views
+                <span class="video__point">·</span>
+                1 months ago
+              </p>
+              <p class="video__user">Dollie Blair</p>
+            </div>
+          </div>
+          <div class="video__card">
+            <div
+              style="background-image: url('./images/cover3.png')"
+              class="video__preview"
+            >
+              <p class="video__duration">5:32</p>
+            </div>
+            <p class="video__name">Asteroids</p>
+            <div class="video__info">
+              <p class="video__views">
+                43k views
+                <span class="video__point">·</span>
+                12 days ago
+              </p>
+              <p class="video__user">Dollie Blair</p>
+            </div>
+          </div>
+          <div class="video__card">
+            <div
+              style="background-image: url('./images/cover4.png')"
+              class="video__preview"
+            >
+              <p class="video__duration">6:40</p>
+            </div>
+            <p class="video__name video__name-telescopes">Telescopes 101</p>
+            <div class="video__info">
+              <p class="video__views">
+                11k views
+                <span class="video__point">·</span>
+                6 months ago
+              </p>
+              <p class="video__user">Dollie Blair</p>
+            </div>
+          </div>
+          <div class="video__card">
+            <div
+              style="background-image: url('./images/cover5.png')"
+              class="video__preview"
+            >
+              <p class="video__duration">1:45</p>
+            </div>
+            <p class="video__name">Medical Care Is Just</p>
+            <div class="video__info">
+              <p class="video__views">
+                18k views
+                <span class="video__point">·</span>
+                2 days ago
+              </p>
+              <p class="video__user">Dollie Blair</p>
+            </div>
+          </div>
+          <div class="video__card">
+            <div
+              style="background-image: url('./images/cover6.png')"
+              class="video__preview"
+            >
+              <p class="video__duration">2:12</p>
+            </div>
+            <p class="video__name">Moon Gazing</p>
+            <div class="video__info">
+              <p class="video__views">
+                67k views
+                <span class="video__point">·</span>
+                4 months ago
+              </p>
+              <p class="video__user">Dollie Blair</p>
+            </div>
+          </div>
+        </section>
+        <section class="recommended">
+          <div class="recommended__container">
+            <h2 class="recommended__title">Recommended</h2>
+            <div class="recommended__slider">
+              <button class="recommended__button"></button>
+              <button class="recommended__button"></button>
+            </div>
+          </div>
+          <div class="recommended__videos">
+            <div class="recommended__card">
+              <div
+                style="background-image: url('./images/recommended1.png')"
+                class="recommended__preview"
+              >
+                <p class="recommended__duration">3:40</p>
+              </div>
+              <p class="recommended__name">Dude You Re Getting A Telescope</p>
+              <div class="recommended__info">
+                <p class="recommended__views">
+                  34k views
+                  <span class="recommended__point">·</span>
+                  5 months ago
+                </p>
+                <p class="recommended__author">Gussie French</p>
+              </div>
+            </div>
+            <div class="recommended__card">
+              <div
+                style="background-image: url('./images/recommended2.png')"
+                class="recommended__preview"
+              >
+                <p class="recommended__duration">2:12</p>
+              </div>
+              <p class="recommended__name">Moon Gazing</p>
+              <div class="recommended__info">
+                <p class="recommended__views">
+                  54k views
+                  <span class="recommended__point">·</span>
+                  11 months ago
+                </p>
+                <p class="recommended__author">Edward Osborne</p>
+              </div>
+            </div>
+            <div class="recommended__card">
+              <div
+                style="background-image: url('./images/recommended3.png')"
+                class="recommended__preview"
+              >
+                <p class="recommended__duration">2:12</p>
+              </div>
+              <p class="recommended__name">Moon Gazing</p>
+              <div class="recommended__info">
+                <p class="recommended__views">
+                  125k views
+                  <span class="recommended__point">·</span>
+                  4 months ago
+                </p>
+                <p class="recommended__author">Dollie Blair</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="channels">
+          <div class="channels__container">
+            <div class="channels__text">
+              <img
+                src="./images/channels-lable.png"
+                alt="Food & Drink channel lable"
+                class="channels__image"
+              />
+              <h2 class="channels__title">Food & Drink</h2>
+              <p class="channels__subtitle">Recommended channel for you</p>
+            </div>
+            <div class="channels__buttons">
+              <button class="channels__subscribe">Subscribe 2.3m</button>
+              <div class="channels__slider">
+                <button class="channels__button"></button>
+                <button class="channels__button"></button>
+              </div>
+            </div>
+          </div>
+          <div class="channels__videos">
+            <div class="channels__card">
+              <div
+                style="background-image: url('./images/channels1.png')"
+                class="channels__preview"
+              >
+                <p class="channels__duration">7:36</p>
+              </div>
+              <p class="channels__name">Astronomy Or Astrology</p>
+              <div class="channels__info">
+                <p class="channels__views">
+                  240k views
+                  <span class="channels__point">·</span>
+                  4 months ago
+                </p>
+                <p class="channels__channel-name">Food & Drink</p>
+              </div>
+            </div>
+            <div class="channels__card">
+              <div
+                style="background-image: url('./images/channels2.png')"
+                class="channels__preview"
+              >
+                <p class="channels__duration">2:19</p>
+              </div>
+              <p class="channels__name channels__name-fix">Advertising Outdoors</p>
+              <div class="channels__info">
+                <p class="channels__views">
+                  13k views
+                  <span class="channels__point">·</span>
+                  15 days ago
+                </p>
+                <p class="channels__channel-name">Food & Drink</p>
+              </div>
+            </div>
+            <div class="channels__card">
+              <div
+                style="background-image: url('./images/channels3.png')"
+                class="channels__preview"
+              >
+                <p class="channels__duration">9:05</p>
+              </div>
+              <p class="channels__name">Radio Astronomy</p>
+              <div class="channels__info">
+                <p class="channels__views">
+                  1k views
+                  <span class="channels__point">·</span>
+                  11 months ago
+                </p>
+                <p class="channels__channel-name">Food & Drink</p>
+              </div>
+            </div>
+            <div class="channels__card">
+              <div
+                style="background-image: url('./images/channels4.png')"
+                class="channels__preview"
+              >
+                <p class="channels__duration">3:40</p>
+              </div>
+              <p class="channels__name">A Good Autoresponder</p>
+              <div class="channels__info">
+                <p class="channels__views">
+                  45k views
+                  <span class="channels__point">·</span>
+                  2 months ago
+                </p>
+                <p class="channels__channel-name">Food & Drink</p>
+              </div>
+            </div>
+            <div class="channels__card">
+              <div
+                style="background-image: url('./images/channels5.png')"
+                class="channels__preview"
+              >
+                <p class="channels__duration">1:56</p>
+              </div>
+              <p class="channels__name">Baby Monitor Technology</p>
+              <div class="channels__info">
+                <p class="channels__views">
+                  86k views
+                  <span class="channels__point">·</span>
+                  7 days ago
+                </p>
+                <p class="channels__channel-name">Food & Drink</p>
+              </div>
+            </div>
+            <div class="channels__card">
+              <div
+                style="background-image: url('./images/channels6.png')"
+                class="channels__preview"
+              >
+                <p class="channels__duration">4:15</p>
+              </div>
+              <p class="channels__name">Asteroids</p>
+              <div class="channels__info">
+                <p class="channels__views">
+                  123k views
+                  <span class="channels__point">·</span>
+                  4 months ago
+                </p>
+                <p class="channels__channel-name">Dollie Blair</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <footer class="footer">
+      <button class="footer__button">
+        <img src="./images/setting.svg" alt="Home button" class="footer__image" />
+        <p class="footer__text">Setting</p>
+      </button>
+    </footer>
+  </body>
 </html>
