@@ -35,3 +35,16 @@
   line-height: 20.08px;
   color: #c2c2c2;
 }
+
+@media screen and (max-width: 1185px) {
+  .footer {
+    max-width: 1024px;
+    padding: 20px 0 40px 0;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .footer {
+    display: none;
+  }
+}

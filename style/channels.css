@@ -174,3 +174,15 @@
   line-height: 16.31px;
   color: #c2c2c2;
 }
+
+@media screen and (max-width: 1185px) {
+  .channels {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .channels {
+    display: none;
+  }
+}

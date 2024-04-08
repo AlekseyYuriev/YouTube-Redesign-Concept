@@ -153,3 +153,84 @@
   margin-right: 38px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1185px) {
+  .header {
+    max-width: 1024px;
+  }
+
+  .header__search {
+    margin: 0 150px 0 27px;
+  }
+
+  .header__icons {
+    padding-right: 0;
+  }
+
+  .header__user {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .header {
+    max-width: 288px;
+    padding-top: 10px;
+  }
+
+  .header__intro {
+    padding: 0;
+  }
+
+  .header__nav-button {
+    display: none;
+  }
+
+  .header__search {
+    margin: 0;
+  }
+
+  .header__input {
+    display: none;
+  }
+
+  .header__phone {
+    display: none;
+  }
+
+  .header__services {
+    display: none;
+  }
+
+  .header__bell {
+    display: none;
+  }
+
+  .header__bell-number {
+    display: none;
+  }
+
+  .header__user {
+    width: 30px;
+    height: 30px;
+  }
+
+  .header__user-icon {
+    padding: 2px 0 0 1px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .header__search {
+    max-width: 20px;
+    width: 100%;
+    justify-content: flex-end;
+    margin-left: 75px;
+  }
+
+  .header__search-button {
+    margin-top: 2px;
+    width: 19px;
+    height: 19px;
+  }
+}
